@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Carousel from "../src/components/Carousel";
+import Contact from "../src/components/Contact";
+
 
 class App extends Component {
   render() {
@@ -13,8 +16,16 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        
+      <div>
+        <Carousel />
       </div>
-    );
+      <div>
+        <Component />
+      </div>
+      </div>
+      
+    )
   }
 }
 
