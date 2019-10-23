@@ -4,7 +4,6 @@ import "./App.css";
 import Carousel from "../src/components/Carousel";
 import Contact from "../src/components/Contact";
 
-
 class App extends Component {
   render() {
     return (
@@ -21,11 +20,11 @@ class App extends Component {
         <Carousel />
       </div>
       <div>
-        <Component />
+        <Contact />
       </div>
       </div>
       
-    )
+    );
   }
 }
 

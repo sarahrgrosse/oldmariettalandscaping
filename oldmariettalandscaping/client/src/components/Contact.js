@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-class App extends Component {
+export class Contact extends Component {
+
 render() {
     return(
         <div id="contact" className="text-center">
@@ -67,3 +68,5 @@ render() {
 );
 }
 }
+
+export default Contact;
