@@ -1,8 +1,10 @@
-var NewComponent = React.createClass({
-    render: function() {
+import React, { Component } from "react";
+
+export class Nav extends Component {
+    render() {
       return (
   
-        <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+        <nav id="menu" className="navbar navbar-fixed-top">
           <div className="container"> 
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
@@ -24,4 +26,6 @@ var NewComponent = React.createClass({
         </nav>
       );
     }
-  });
+  }
+
+  export default Nav;
