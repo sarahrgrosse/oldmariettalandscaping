@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Carousel from "../src/components/Carousel";
+import About from "../src/components/About";
 import Contact from "../src/components/Contact";
+import Footer from "../src/components/Footer";
 
 class App extends Component {
   render() {
@@ -15,15 +17,21 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        
-      <div>
-        <Carousel />
+
+        <div>
+          <About />
+        </div>
+        <div>
+          <Carousel />
+        </div>
+        <div>
+          <Contact />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
-      <div>
-        <Contact />
-      </div>
-      </div>
-      
+
     );
   }
 }
