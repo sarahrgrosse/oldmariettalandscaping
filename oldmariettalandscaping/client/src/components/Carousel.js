@@ -19,6 +19,9 @@ export class Carousel extends Component {
             <div class="item">
               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam."</p>
             </div>
+            <div class="item">
+              <p>Kayley broke her branch</p>
+            </div>
           </div>
         </div>
       </div>
