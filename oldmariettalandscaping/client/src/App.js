@@ -5,6 +5,7 @@ import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
 import Nav from "../src/components/Nav";
+import Customer from "../src/components/Customer";
 
 class App extends Component {
   render() {
@@ -21,6 +22,9 @@ class App extends Component {
         </div>
         <div>
           <Contact />
+        </div>
+        <div>
+          <Customer />
         </div>
         <div>
           <Footer />
