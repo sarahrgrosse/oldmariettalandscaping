@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Carousel from "../src/components/Carousel";
+import Testimonials from "../src/components/Testimonials";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
@@ -10,15 +9,10 @@ import Nav from "../src/components/Nav";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <div>
+        <div>
+          <Nav />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-
         <div>
           <Nav />
         </div>
@@ -26,16 +20,18 @@ class App extends Component {
           <About />
         </div>
         <div>
-          <Carousel />
+          <Testimonials />
         </div>
         <div>
           <Contact />
         </div>
         <div>
+          <Customer />
+        </div>
+        <div>
           <Footer />
         </div>
-      </div>
-
+        </div>
     );
   }
 }

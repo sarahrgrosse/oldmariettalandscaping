@@ -18,11 +18,10 @@ export class About extends Component {
                 <li><a href="#portfolio" className="page-scroll">Gallery</a></li>
                 <li><a href="#testimonials" className="page-scroll">Testimonials</a></li>
                 <li><a href="#contact" className="page-scroll">Contact</a></li>
+                <li><a href="#customer" className="page-scroll">Customer Portal</a></li>
               </ul>
             </div>
-            {/* /.navbar-collapse */} 
           </div>
-          {/* /.container-fluid */} 
         </nav>
       );
     }
