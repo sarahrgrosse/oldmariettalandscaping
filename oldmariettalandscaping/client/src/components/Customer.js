@@ -4,8 +4,13 @@ export class Customer extends Component {
 
 render() {
     return (
-        <div>
-            Customer Login Page Goes Here
+        <div id="customer" className="text-center">
+        <div className="container">
+          <div className="section-title text-center">
+            <h2>Customer Portal</h2>
+            <p>Login Form should go here</p>
+        </div>
+        </div>
         </div>
     )
 }
