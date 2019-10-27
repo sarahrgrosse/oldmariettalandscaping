@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+<<<<<<< HEAD
 export class About extends Component {
 <<<<<<< HEAD
   render () {
@@ -28,13 +29,12 @@ export class About extends Component {
   }
 };
 =======
-    render() {
-<<<<<<< HEAD
-      return (
 =======
+export class Nav extends Component {
+>>>>>>> 58f0289c4b333b419df9534f5e3497ecd3219905
+    render() {
     return (
   
->>>>>>> 9646631981eea0e492742f2771586f49de668202
         <nav id="menu" className="navbar navbar-default navbar-fixed-top">
           <div className="container"> 
             <div className="navbar-header">
@@ -55,5 +55,11 @@ export class About extends Component {
         </nav>
       );
     }
+<<<<<<< HEAD
   };
 >>>>>>> cdb9a97a72a320a2f847512c98f8023923db2b97
+=======
+  }
+
+  export default Nav;
+>>>>>>> 58f0289c4b333b419df9534f5e3497ecd3219905
