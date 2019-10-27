@@ -1,7 +1,6 @@
 const router = express.Router();
-
 const appointmentController = 
-require('../../controllers/appointments')
+require('../../controllers/appointments');
 const slotController = require('../../controllers/slot')
 
 router.get('/appointments', appointmentController.all);

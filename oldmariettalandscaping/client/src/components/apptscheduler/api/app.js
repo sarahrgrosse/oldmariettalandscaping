@@ -12,7 +12,7 @@ var usersRouter = require('./routes/users');
 
 mongoose.Promise = global.Promise;
 
-ds333248.mlab.com: 33248/heroku_hzv438hm
+ds333248.mlab.com; 33248/heroku_hzv438hm
 mongoose.connect('heroku_hzv438hm:Virginia1527@https://www.mlab.com/databases/heroku_hzv438hm/Appointments',
 {
   useMongoClient: true
