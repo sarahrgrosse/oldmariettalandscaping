@@ -9,14 +9,15 @@ export class Contact extends Component {
           <div className="section-title text-center">
             <h2>Contact Us</h2>
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+            <p>You can contact us directly via phone, send us an email, or leave a message here to set up a complimentary estimate!</p>
           </div>
           <div className="col-md-10 col-md-offset-1 contact-info">
             <div className="col-md-4">
               <h3>Address</h3>
               <hr />
               <div className="contact-item">
-                <p>Address</p>
+                <p>1098 New Haven Drive</p>
+                <p>Marietta, Ga. 30064</p>
               </div>
             </div>
 
