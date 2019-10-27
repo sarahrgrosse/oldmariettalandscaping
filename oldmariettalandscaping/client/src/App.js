@@ -15,9 +15,6 @@ class App extends Component {
           <Nav />
         </div>
         <div>
-          <Nav />
-        </div>
-        <div>
           <About />
         </div>
         <div>
