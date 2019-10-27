@@ -9,7 +9,7 @@ export class Contact extends Component {
           <div className="section-title text-center">
             <h2>Contact Us</h2>
             <hr />
-            <p>You can contact us directly via phone, send us an email, or leave a message here to set up a complimentary estimate!</p>
+            <p>You can set up a complimentary estimate by calling us directly, emailing us, or by leaving a message here! We look forward to meeting with you!</p>
           </div>
           <div className="col-md-10 col-md-offset-1 contact-info">
             <div className="col-md-4">
