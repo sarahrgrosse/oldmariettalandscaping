@@ -32,10 +32,6 @@ export class About extends Component {
           </div>
         </div>
       </div>
-            </div >
-          </div >
-        </div >
-      </div >
     );
   }
 };
