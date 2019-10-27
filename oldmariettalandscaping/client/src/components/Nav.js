@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 
-export class Nav extends Component {
+export class About extends Component {
     render() {
+<<<<<<< HEAD
       return (
+=======
+    return (
+  
+>>>>>>> 9646631981eea0e492742f2771586f49de668202
         <nav id="menu" className="navbar navbar-default navbar-fixed-top">
           <div className="container"> 
             <div className="navbar-header">
@@ -23,6 +28,4 @@ export class Nav extends Component {
         </nav>
       );
     }
-  }
-
-  export default Nav;
+  };
