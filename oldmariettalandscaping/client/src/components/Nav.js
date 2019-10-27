@@ -1,6 +1,8 @@
-var NewComponent = React.createClass({
-    render: function() {
-      return (
+import React, { Component } from "react";
+
+export class About extends Component {
+    render() {
+    return (
   
         <nav id="menu" className="navbar navbar-default navbar-fixed-top">
           <div className="container"> 
@@ -24,4 +26,4 @@ var NewComponent = React.createClass({
         </nav>
       );
     }
-  });
+  };

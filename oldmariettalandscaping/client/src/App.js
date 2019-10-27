@@ -5,6 +5,7 @@ import Carousel from "../src/components/Carousel";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
+import Nav from "../src/components/Nav";
 
 class App extends Component {
   render() {
@@ -18,6 +19,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
+        <div>
+          <Nav />
+        </div>
         <div>
           <About />
         </div>
