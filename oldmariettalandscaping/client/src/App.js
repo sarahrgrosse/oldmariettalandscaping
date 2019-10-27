@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Carousel from "../src/components/Carousel";
 import About from "../src/components/About";

@@ -4,7 +4,7 @@ export class Nav extends Component {
     render() {
       return (
   
-        <nav id="menu" className="navbar navbar-fixed-top">
+        <nav id="menu" className="navbar navbar-default navbar-fixed-top">
           <div className="container"> 
             {/* Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">
@@ -20,9 +20,7 @@ export class Nav extends Component {
                 <li><a href="#contact" className="page-scroll">Contact</a></li>
               </ul>
             </div>
-            {/* /.navbar-collapse */} 
           </div>
-          {/* /.container-fluid */} 
         </nav>
       );
     }
