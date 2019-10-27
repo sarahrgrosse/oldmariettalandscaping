@@ -11,8 +11,8 @@ export class About extends Component {
               <div className="about-text">
                 <h2>Welcome to <span>Old Marietta Landscaping</span></h2>
                 <hr />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+                <p>Our Services include Landscaping, Home Maintenance, and Much More. Give us a Call for a Free Estimate! There is No Job Too Small!</p>
+                <p>Old Marietta Landscaping! It's a Family Thing!</p>
                 <a href="#services" className="btn btn-custom btn-lg page-scroll">View All Services</a> </div>
             </div>
             <div className="col-xs-12 col-md-3">
@@ -32,6 +32,10 @@ export class About extends Component {
           </div>
         </div>
       </div>
+            </div >
+          </div >
+        </div >
+      </div >
     );
   }
 };
