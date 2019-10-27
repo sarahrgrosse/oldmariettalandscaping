@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Carousel from "../src/components/Carousel";
+import Testimonials from "../src/components/Testimonials";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
@@ -18,7 +18,7 @@ class App extends Component {
           <About />
         </div>
         <div>
-          <Carousel />
+          <Testimonials />
         </div>
         <div>
           <Contact />
