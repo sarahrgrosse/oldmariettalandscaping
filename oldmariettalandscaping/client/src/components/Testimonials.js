@@ -5,8 +5,8 @@ export class Testimonials extends Component {
         return (
             <div className="row">
                 <div className="col-md-10 col-md-offset-1">
-                    <div id="testimonial"
-                        className="owl-carousel owl-theme">
+                    {/* <div id="testimonial" */}
+                        <div className="owl-carousel owl-theme">
                         <div className="item">
                             <p>"What seperates this company from many other small businesses is their responsiveness. Neil Grosse showed up when he said he would, actually, he was early. In my experience in dealing with small businesses this is unusual. Mr. Grosse's bid was not the lowest, but I felt he was worth the extra money and he proved worth of my confidence. He's worthy of your confidence too. -Maureen Lawton Berry</p>
                         </div>
@@ -27,5 +27,5 @@ export class Testimonials extends Component {
             </div>
         );
     }
-}
+};
 export default Testimonials;
