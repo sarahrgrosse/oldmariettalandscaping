@@ -8,7 +8,7 @@ export class Services extends Component {
                     <div className="col-md-10 col-md-offset-1 section-title text-center">
                         <h2>Our Services</h2>
                         <hr />
-                        <p>We offer a wide range of services from award winning maintenance, landscape design, and instillations.</p>
+                        <p>We offer a wide range of services from award winning maintenance, landscape design, and installations.</p>
                     </div>
                     <div className="row">
                         <div className="col-md-3 text-center">

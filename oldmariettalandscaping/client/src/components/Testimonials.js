@@ -14,24 +14,24 @@ export class Testimonials extends Component {
                             <div className="col-md-10 col-md-offset-1">
                                 <div id="testimonial" className="owl-carousel owl-theme">
                                     <div className="item">
-                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
-                      commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam."</p>
-                                        <p>- John DOE, Parker County, TX</p>
+                                        <p>"What seperates this company from many other small businessess is their responsiveness. Neil Grosse showed up when he said he would, actually, he was early. In my experience in dealing with small businessess this is unusual. Also, Mr. Grosse's bid was not the lowest, but I felt he was worth the extra money and he proved worthy of my confidence. He's worthy of your confidence too."</p>
+                                        <p>- Maureen Lawton Berry</p>
                                     </div>
                                     <div className="item">
-                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
-                      commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam."</p>
-                                        <p>- Jenny DOE, Parker County, TX</p>
+                                        <p>"We recommend your services to all our friends and family because not only is the job you're doing giving us quality family time back but the work you do is excellent! Thank you! We appreciate it so much!"</p>
+                                        <p>- Naomi Jean Gasson</p>
                                     </div>
                                     <div className="item">
-                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
-                      commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam."</p>
-                                        <p>- John DOE, Parker County, TX</p>
+                                        <p>"Amazing work and turn around. Couldn't imagine a better looking yard, thank you!"</p>
+                                        <p>- Brooke Morse</p>
                                     </div>
                                     <div className="item">
-                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
-                      commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam."</p>
-                                        <p>- John DOE, Parker County, TX</p>
+                                        <p>"Neil Grosse is very knowledgeable."</p>
+                                        <p>- Michael Carver</p>
+                                    </div>
+                                    <div className="item">
+                                        <p>"These guys do it right, the old fashioned way. They know what they are doing!"</p>
+                                        <p>- Doc Roberts</p>
                                     </div>
                                 </div>
                             </div>
