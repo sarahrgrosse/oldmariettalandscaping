@@ -6,16 +6,24 @@ import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
 import Nav from "../src/components/Nav";
 import Customer from "../src/components/Customer";
+import Services from "../src/components/Services";
+import Gallery from "../src/components/Gallery";
 
 class App extends Component {
-  render() {
+  render () {
     return (
-        <div>
+      <div>
         <div>
           <Nav />
         </div>
         <div>
           <About />
+        </div>
+        <div>
+          <Services />
+        </div>
+        <div>
+          <Gallery />
         </div>
         <div>
           <Testimonials />
@@ -29,7 +37,7 @@ class App extends Component {
         <div>
           <Footer />
         </div>
-        </div>
+      </div>
     );
   }
 }
