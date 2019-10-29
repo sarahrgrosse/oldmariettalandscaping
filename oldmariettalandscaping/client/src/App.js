@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Provider } from "react-redux";
-import store from "./store";
+// import { Provider } from "react-redux";
+// import store from "./store";
 import "./App.css";
 import Testimonials from "../src/components/Testimonials";
 import About from "../src/components/About";
@@ -17,8 +17,8 @@ import Gallery from "../src/components/Gallery";
 class App extends Component {
   render () {
     return (
-      <Provider store={store}>
-        <Router>
+      // // <Provider store={store}>
+      //   <Router>
       <div>
         <div>
           <Nav />
@@ -51,8 +51,8 @@ class App extends Component {
           <Footer />
         </div>
       </div>
-      </Router>
-      </Provider>
+      // </Router>
+      // </Provider>
     );
   }
 }
