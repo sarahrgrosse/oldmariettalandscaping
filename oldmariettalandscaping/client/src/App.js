@@ -55,12 +55,6 @@ class App extends Component {
       // </Router>
       // </Provider>
     );
-
-    return (
-      <div>
-        <AccountHome />
-      </div>
-    );
   }
 }
 
