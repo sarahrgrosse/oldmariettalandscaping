@@ -28,7 +28,7 @@ render() {
                   </div>
 
                   </form> 
-                  <button type="submit" class="btn btn-custom btn-lg">Login</button>                
+                  <button type="submit" class="btn btn-custom btn-lg" href="./AccountHome.js">Login</button>                
                    </div>
         </div>
         </div>

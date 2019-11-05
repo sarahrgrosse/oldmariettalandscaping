@@ -13,6 +13,7 @@ import Register from "../src/components/auth/Register";
 import Login from "../src/components/auth/Login";
 import Services from "../src/components/Services";
 import Gallery from "../src/components/Gallery";
+import AccountHome from "../src/components/AccountHome";
 
 class App extends Component {
   render () {
@@ -53,6 +54,12 @@ class App extends Component {
       </div>
       // </Router>
       // </Provider>
+    );
+
+    return (
+      <div>
+        <AccountHome />
+      </div>
     );
   }
 }
