@@ -11,7 +11,7 @@ export class Footer extends Component {
           <li><a href="https://www.facebook.com/oldmariettalandscaping/"><i className="fa fa-facebook" /></a></li>
         </ul>
       </div>
-      <p>© 2019 Old Marietta Landscape. Template Compimentary Of <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+      <p>© 2019 Old Marietta Landscape.</p>
     </div>
   </div>
 </div>
