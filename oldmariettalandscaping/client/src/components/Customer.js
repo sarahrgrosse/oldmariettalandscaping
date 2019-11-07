@@ -7,6 +7,7 @@ render() {
         <div id="customer" className="text-center">
         <div className="container">
           <div className="section-title text-center">
+<<<<<<< HEAD
               <h2>Customer Login</h2>
           <form name="sentMessage" id="contactForm" novalidate>
                 <div className="row">
@@ -30,6 +31,11 @@ render() {
                   </form> 
                   <button type="submit" class="btn btn-custom btn-lg" href="./AccountHome.js">Login</button>                
                    </div>
+=======
+            <h2>Customer Portal</h2>
+            <p>Login Form should go here</p>
+        </div>
+>>>>>>> cbb8bf2e2a9a0d2720bd63128689dce0f65ad068
         </div>
         </div>
     )

@@ -14,11 +14,11 @@ export class Testimonials extends Component {
                             <div className="col-md-10 col-md-offset-1">
                                 <div id="testimonial" className="owl-carousel owl-theme">
                                     <div className="item">
-                                        <p>"What seperates this company from many other small businessess is their responsiveness. Neil Grosse showed up when he said he would, actually, he was early. In my experience in dealing with small businessess this is unusual. Also, Mr. Grosse's bid was not the lowest, but I felt he was worth the extra money and he proved worthy of my confidence. He's worthy of your confidence too."</p>
+                                        <p>"What seperates this company from many other small businesses, is their responsiveness. Neil Grosse showed up when he said he would, actually, he was early! Mr. Grosse's bid was not the lowest, but I felt he was worth the extra money. He proved worthy of my confidence. He's worthy of your confidence too.</p>
                                         <p>- Maureen Lawton Berry</p>
                                     </div>
                                     <div className="item">
-                                        <p>"We recommend your services to all our friends and family because not only is the job you're doing giving us quality family time back but the work you do is excellent! Thank you! We appreciate it so much!"</p>
+                                        <p>"We recommend your service to all our friends and family because not only is the job you're doing giving us quality time with the family but the work you do is excellent!"</p>
                                         <p>- Naomi Jean Gasson</p>
                                     </div>
                                     <div className="item">
