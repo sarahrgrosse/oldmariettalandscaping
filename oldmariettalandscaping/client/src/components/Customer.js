@@ -8,7 +8,7 @@ render() {
         <div className="container">
           <div className="section-title text-center">
               <h2>Customer Login</h2>
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form name="sentMessage" id="contactForm" noValidate>
                 <div className="row">
 
                   <div className="col-md-6">

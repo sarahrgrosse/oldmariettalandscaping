@@ -14,7 +14,7 @@ return (
         <div className="row">
           <div className="col s12 center-align">
             <h4>
-              <b>Hey there,</b> {user.name.split(" ")[0]}
+              <b>Hey There,</b> {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken-1">
                 Welcome to Old Marietta Landscaping {" "}
                 <span style={{ fontFamily: "monospace" }}>Customer</span> Portal 

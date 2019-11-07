@@ -66,26 +66,18 @@ class App extends Component {
               <div>
                 <Customer />
               </div>
-              <div>
-                <Route exact path="/Register" component={Register} />
-                <Route exact path="/Login" component={Login} />
-                <Switch>
-                  <PrivateRoute exact path="/dashboard" component={Dashboard} />
-                </Switch>
-              </div>
-              {/* <div>
-                <Route exact path="/Register" component={Register} />
-              </div> */}
-              {/* <Switch>
+              <Route exact path="/register" component={Register} />
+              <Route exact path="/login" component={Login} />
+              <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
-              </Switch> */}
+              </Switch>
               <div>
                 <Footer />
               </div>
             </div>
           </div>
         </Router>
-      </Provider>
+      </Provider >
     );
   }
 }

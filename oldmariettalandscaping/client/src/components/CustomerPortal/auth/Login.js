@@ -104,7 +104,7 @@ return (
                 </span>
               </div>
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-                <button
+                <button id="customerLogin"
                   style={{
                     width: "150px",
                     borderRadius: "3px",
