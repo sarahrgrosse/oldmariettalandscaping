@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import "./App.css";
 import Testimonials from "../src/components/Testimonials";
+import Header from "../src/components/Header";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Footer from "../src/components/Footer";
@@ -49,6 +50,9 @@ class App extends Component {
                 <Nav />
               </div>
               <div>
+                <Header />
+              </div>
+              <div>
                 <About />
               </div>
               <div>
@@ -66,6 +70,8 @@ class App extends Component {
               <div>
                 <Customer />
               </div>
+              {/* <Route exact path="/register" component={Register} />
+              <Route exact path="/login" component={Login} /> */}
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Switch>
