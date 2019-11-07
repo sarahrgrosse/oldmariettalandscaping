@@ -1,5 +1,8 @@
-var NewComponent = React.createClass({
-    render: function() {
+import React, { Component } from "react";
+
+export class LoginLanding extends Component {
+
+    render() {
       return (
         <div>
           <meta charSet="utf-8" />
@@ -15,4 +18,6 @@ var NewComponent = React.createClass({
         </div>
       );
     }
-  });
+  }
+
+  export default LoginLanding;
