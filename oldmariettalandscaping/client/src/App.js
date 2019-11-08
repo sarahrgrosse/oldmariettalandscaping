@@ -19,7 +19,6 @@ import PrivateRoute from "../src/components/private-route/PrivateRoute";
 import Dashboard from "../src/components/dashboard/Dashboard";
 import Services from "../src/components/Services";
 import Gallery from "../src/components/Gallery";
-import AccountHome from "../src/components/AccountHome";
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {

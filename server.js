@@ -31,18 +31,6 @@ mongoose.connect(db, { useNewUrlParser: true }
 )
 .then(() => console.log("MongoDB successfully connected"))
 .catch(err => console.log(err));
-// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoUser";
-
-// mongoose.set('useNewUrlParser', true);
-// mongoose.set('useUnifiedTopology', true);
-// mongoose.connect(MONGODB_URI, function(error) {
-//     if (error) {
-//         console.log(error);
-//     }
-//     else {
-//         console.log("Mongoose Connection Successful");
-//     }
-// });
 
 //Passport Middleware Config//
 app.use(passport.initialize());
