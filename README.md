@@ -6,3 +6,8 @@ This MERN webpage utilizes HTML, CSS, JavaScript, React.js, Express, and MongoDB
 
 New Technology's Used: PayPal, AppointLet
 
+Nice to Have's: 
+- Invoice Generator for Customers in the Customer Portal
+- Appointment Setter other than AppointLet
+
+Screenshots of the Back-End:
