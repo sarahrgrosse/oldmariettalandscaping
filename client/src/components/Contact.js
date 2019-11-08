@@ -16,6 +16,7 @@ export class Contact extends Component {
               <h3>Address</h3>
               <hr />
               <div className="contact-item">
+                <p>1098 New Haven Drive</p>
                 <p>Marietta, Ga. 30064</p>
               </div>
             </div>
@@ -38,7 +39,7 @@ export class Contact extends Component {
             </div>
             <div className="col-md-8 col-md-offset-2">
               <h3>Leave us a message</h3>
-              <form name="sentMessage" id="contactForm" novalidate>
+              <form name="sentMessage" id="contactForm" noValidate>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
