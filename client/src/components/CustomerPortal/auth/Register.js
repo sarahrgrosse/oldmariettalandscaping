@@ -58,11 +58,10 @@ class Register extends Component {
   render() {
     const { errors } = this.state;
     return (
-      <div className="container">
+      <div className="container" id="custPortal">
         <div className="row">
           <div className="col s8 offset-s5">
-            <a href="/" className="btn-flat waves-effect">
-              <i className="material-icons left"></i> Back to
+            <a href="/" className="btn-flat waves-effect" id="backHome">Back to
               Home
             </a>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
@@ -70,7 +69,7 @@ class Register extends Component {
                 <b>Register</b> Below
               </h4>
               <p className="grey-text text-darken-1">
-                Already Have An Account? <a href="/login">Log In</a>
+                Already Have An Account? <a href="/login" id="backHome">Log In</a>
               </p>
             </div>
             <form Validate onSubmit={this.onSubmit}>
@@ -81,12 +80,13 @@ class Register extends Component {
                   error={errors.name}
                   id="name"
                   type="text"
+                  placeholder="Name"
                   className={classnames("", {
                     invalid: errors.name
                   })}
                   required
                 />
-                <label htmlFor="name">Name</label>
+                {/* <label htmlFor="name">Name</label> */}
                 <span className="red-text">{errors.name}</span>
               </div>
               <div className="input-field col s12">
@@ -96,12 +96,13 @@ class Register extends Component {
                   error={errors.address}
                   id="address"
                   type="text"
+                  placeholder="Address"
                   className={classnames("", {
                     invalid: errors.address
                   })}
                   required
                 />
-                <label htmlFor="address">Address</label>
+                {/* <label htmlFor="address">Address</label> */}
                 <span className="red-text">{errors.address}</span>
               </div>
               <div className="input-field col s12">
@@ -111,12 +112,13 @@ class Register extends Component {
                   error={errors.phoneNumber}
                   id="phoneNumber"
                   type="text"
+                  placeholder="Phone Number"
                   className={classnames("", {
                     invalid: errors.phoneNumber
                   })}
                   required
                 />
-                <label htmlFor="phoneNumber">Phone Number</label>
+                {/* <label htmlFor="phoneNumber">Phone Number</label> */}
                 <span className="red-text">{errors.phoneNumber}</span>
               </div>
               <div className="input-field col s12">
@@ -126,12 +128,13 @@ class Register extends Component {
                   error={errors.email}
                   id="email"
                   type="email"
+                  placeholder="Email"
                   className={classnames("", {
                     invalid: errors.email
                   })}
                   required
                 />
-                <label htmlFor="email">Email</label>
+                {/* <label htmlFor="email">Email</label> */}
                 <span className="red-text">{errors.email}</span>
               </div>
               <div className="input-field col s12">
@@ -141,12 +144,13 @@ class Register extends Component {
                   error={errors.password}
                   id="password"
                   type="password"
+                  placeholder="Password"
                   className={classnames("", {
                     invalid: errors.password
                   })}
                   required
                 />
-                <label htmlFor="password">Password</label>
+                {/* <label htmlFor="password">Password</label> */}
                 <span className="red-text">{errors.password}</span>
               </div>
               <div className="input-field col s12">
@@ -156,12 +160,13 @@ class Register extends Component {
                   error={errors.password2}
                   id="password2"
                   type="password"
+                  placeholder="Confirm Password"
                   className={classnames("", {
                     invalid: errors.password2
                   })}
                   required
                 />
-                <label htmlFor="password2">Confirm Password</label>
+                {/* <label htmlFor="password2">Confirm Password</label> */}
                 <span className="red-text">{errors.password2}</span>
               </div>
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
@@ -173,9 +178,9 @@ class Register extends Component {
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                  className="btn btn-custom btn-lg"
                 >
-                  Sign up
+                  Register
                 </button>
               </div>
             </form>

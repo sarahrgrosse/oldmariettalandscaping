@@ -67,9 +67,9 @@ class App extends Component {
               <div>
                 <Contact />
               </div>
-              <div>
+              {/* <div>
                 <Customer />
-              </div>
+              </div> */}
               {/* <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} /> */}
               <Route exact path="/register" component={Register} />
