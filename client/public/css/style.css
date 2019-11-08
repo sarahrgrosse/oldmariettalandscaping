@@ -490,6 +490,46 @@ color: #777;
 #contact .contact-item {
 	margin: 20px 0 40px 0;
 }
+/* Customer Portal */
+#dash {
+	padding: 120px 0;
+}
+#backHome {
+	color: black;
+}
+#custportal {
+		padding: 120px 0;
+		background: #6aaf08;
+	}
+	#custportal .service-media {
+		margin: 10px;
+	}
+	#custportal .service-media img {
+		position: relative;
+		width: 225px;
+		height: 225px;
+		border-radius: 50%;
+		border: 10px solid rgba(255,255,255,0.1);
+	}
+	#custportal .service-desc {
+		margin: 10px 10px 40px;
+		text-align: center;
+	}
+	#custportal h2 {
+		color: #fff;
+	}
+	#custportal h3 {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 400;
+		padding: 5px 0;
+	}
+	#custportal p {
+		color: rgba(255,255,255,0.9);
+	}
+	#custportal hr {
+		background: rgba(255,255,255,0.6);
+	}
 /* Footer Section*/
 #footer {
 	background: #333;

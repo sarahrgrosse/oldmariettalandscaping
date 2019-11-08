@@ -60,7 +60,7 @@ export class Contact extends Component {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+                <button type="submit" class="btn btn-custom btn-sm">Send Message</button>
               </form>
             </div>
           </div>

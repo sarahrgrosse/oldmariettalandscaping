@@ -51,19 +51,20 @@ const userData = {
 render() {
     const { errors } = this.state;
 return (
-      <div className="container">
+      <div className="container" id="custportal">
+        <h2>Customer Login</h2>
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
-            <a href="/" className="btn-flat waves-effect">
-              <i className="material-icons left"></i> Back to
+
+            <a href="/" className="btn-flat waves-effect" id="backHome">Back to
               Home
             </a>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
                 <b>Login</b> Below
               </h4>
-              <p className="grey-text text-darken-1">
-                Don't Have an Account? <a href="/register">Register</a>
+              <p className="grey-text text-darken-1"><strong>
+                Don't Have an Account?</strong><a href="/register" id="backHome"> Register Here</a>
               </p>
             </div>
             <form Validate onSubmit={this.onSubmit}>
@@ -74,12 +75,13 @@ return (
                   error={errors.email}
                   id="email"
                   type="email"
+                  placeholder="Email"
                   className={classnames("", {
                     invalid: errors.email || errors.emailnotfound
                   })}
                   required
                 />
-                <label htmlFor="email">Email</label>
+                {/* <label htmlFor="email">Email</label> */}
                 <span className="red-text">
                   {errors.email}
                   {errors.emailnotfound}
@@ -92,12 +94,13 @@ return (
                   error={errors.password}
                   id="password"
                   type="password"
+                  placeholder="Password"
                   className={classnames("", {
                     invalid: errors.password || errors.passwordincorrect
                   })}
                   required
                 />
-                <label htmlFor="password">Password</label>
+                {/* <label htmlFor="password">Password</label> */}
                 <span className="red-text">
                   {errors.password}
                   {errors.passwordincorrect}
@@ -105,14 +108,14 @@ return (
               </div>
               <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                 <button id="customerLogin"
-                  style={{
-                    width: "150px",
-                    borderRadius: "3px",
-                    letterSpacing: "1.5px",
-                    marginTop: "1rem"
-                  }}
+                  // style={{
+                  //   width: "150px",
+                  //   borderRadius: "3px",
+                  //   letterSpacing: "1.5px",
+                  //   marginTop: "1rem"
+                  // }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                  className="btn btn-custom btn-lg"
                 >
                   Login
                 </button>
