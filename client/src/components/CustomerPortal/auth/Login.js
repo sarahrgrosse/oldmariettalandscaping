@@ -55,20 +55,12 @@ return (
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
             <a href="/" className="btn-flat waves-effect">
-<<<<<<< HEAD:client/src/components/auth/Login.js
-              Back to Home
-            </a>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-              <h4>
-                <b>Login</b>
-=======
               <i className="material-icons left"></i> Back to
               Home
             </a>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
                 <b>Login</b> Below
->>>>>>> bc8497cc37c22076938b92c8ace31f524cdf66ee:client/src/components/CustomerPortal/auth/Login.js
               </h4>
               <p className="grey-text text-darken-1">
                 Don't Have an Account? <a href="/register">Register</a>

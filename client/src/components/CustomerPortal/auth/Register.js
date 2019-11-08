@@ -67,11 +67,7 @@ class Register extends Component {
             </a>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
-<<<<<<< HEAD:client/src/components/auth/Register.js
-                <b>Register</b>
-=======
                 <b>Register</b> Below
->>>>>>> bc8497cc37c22076938b92c8ace31f524cdf66ee:client/src/components/CustomerPortal/auth/Register.js
               </h4>
               <p className="grey-text text-darken-1">
                 Already Have An Account? <a href="/login">Log In</a>
