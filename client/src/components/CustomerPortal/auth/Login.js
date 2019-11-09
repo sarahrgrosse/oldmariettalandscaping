@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { loginUser } from "../../../actions/authActions";
 import classnames from "classnames";
 // import { Link } from "react-router-dom";
+
 class Login extends Component {
   constructor() {
     super();
@@ -23,107 +24,109 @@ class Login extends Component {
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.auth.isAuthenticated) {
-      this.props.history.push("/dashboard"); // push user to dashboard when they login
+      this.props.history.push("/dashboard");
     }
-if (nextProps.errors) {
+
+    if (nextProps.errors) {
       this.setState({
         errors: nextProps.errors
       });
     }
   }
 
-onChange = e => {
+  onChange = e => {
     this.setState({ [e.target.id]: e.target.value });
   };
 
-onSubmit = e => {
+  onSubmit = e => {
     e.preventDefault();
-const userData = {
+
+    const userData = {
       email: this.state.email,
       password: this.state.password
     };
-    console.log(userData);
 
-    this.props.loginUser(userData); // since we handle the redirect within our component, we don't need to pass in this.props.history as a parameter
+    this.props.loginUser(userData);
   };
 
-
-render() {
+  render() {
     const { errors } = this.state;
-return (
-      <div className="container" id="custportal">
-        <h2>Customer Login</h2>
-        <div style={{ marginTop: "4rem" }} className="row">
-          <div className="col s8 offset-s2">
 
-            <a href="/" className="btn-flat waves-effect" id="backHome">Back to
-              Home
+    return (
+      <div id="custportal" className="text-center">
+        <div className="overlay">
+          <div className="container">
+            <h2>Customer Login</h2>
+            <hr />
+            <p></p>
+            <form name="sentMessage" id="contactForm" noValidate>
+              <div className="row">
+                <p className="grey-text text-darken-1"><strong>
+                  Don't Have an Account?</strong> <a href="/register" id="backHome"><strong>Register Here</strong></a>
+                </p>
+                <a href="/" id="backHome">Back to
+                  Home
             </a>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-              <h4>
-                <b>Login</b> Below
-              </h4>
-              <p className="grey-text text-darken-1"><strong>
-                Don't Have an Account?</strong><a href="/register" id="backHome"> Register Here</a>
-              </p>
-            </div>
-            <form Validate onSubmit={this.onSubmit}>
-              <div className="input-field col s12">
-                <input
-                  onChange={this.onChange}
-                  value={this.state.email}
-                  error={errors.email}
-                  id="email"
-                  type="email"
-                  placeholder="Email"
-                  className={classnames("", {
-                    invalid: errors.email || errors.emailnotfound
-                  })}
-                  required
-                />
-                {/* <label htmlFor="email">Email</label> */}
-                <span className="red-text">
-                  {errors.email}
-                  {errors.emailnotfound}
-                </span>
-              </div>
-              <div className="input-field col s12">
-                <input
-                  onChange={this.onChange}
-                  value={this.state.password}
-                  error={errors.password}
-                  id="password"
-                  type="password"
-                  placeholder="Password"
-                  className={classnames("", {
-                    invalid: errors.password || errors.passwordincorrect
-                  })}
-                  required
-                />
-                {/* <label htmlFor="password">Password</label> */}
-                <span className="red-text">
-                  {errors.password}
-                  {errors.passwordincorrect}
-                </span>
-              </div>
-              <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-                <button id="customerLogin"
-                  // style={{
-                  //   width: "150px",
-                  //   borderRadius: "3px",
-                  //   letterSpacing: "1.5px",
-                  //   marginTop: "1rem"
-                  // }}
-                  type="submit"
-                  className="btn btn-custom btn-lg"
-                >
-                  Login
+                <hr></hr>
+
+                <form Validate onSubmit={this.onSubmit}>
+                  <div className="row">
+                    <div className="input-field col s12 m6">
+                      <div className="form-group">
+                        <input
+                          // className="form-control"
+                          onChange={this.onChange}
+                          value={this.state.email}
+                          error={errors.email}
+                          id="email"
+                          type="email"
+                          placeholder="Email"
+                          className={classnames("", {
+                            invalid: errors.email || errors.emailnotfound
+                          })}
+                          required />
+                        <p className="help-block text-danger"></p>
+                        <span className="red-text">
+                          {errors.email}
+                          {errors.emailnotfound}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="input-field col s12">
+                    <input
+                      onChange={this.onChange}
+                      value={this.state.password}
+                      error={errors.password}
+                      id="password"
+                      type="password"
+                      placeholder="Password"
+                      className={classnames("", {
+                        invalid: errors.password || errors.passwordincorrect
+                      })}
+                      required
+                    />
+                    <span className="red-text">
+                      {errors.password}
+                      {errors.passwordincorrect}
+                    </span>
+                  </div>
+                  <div className="col s12" style={{ padding: "11.250px" }}>
+                    <button id="customerLogin"
+                      type="submit"
+                      className="btn btn-custom btn-sm"
+                    >
+                      Login
                 </button>
+                  </div>
+                </form>
               </div>
             </form>
           </div>
         </div>
       </div>
+
     );
   }
 }
@@ -136,7 +139,8 @@ Login.propTypes = {
 
 const mapStateToProps = state => ({
   auth: state.auth,
-  errors: state.errors});
+  errors: state.errors
+});
 
 export default connect(
   mapStateToProps,
