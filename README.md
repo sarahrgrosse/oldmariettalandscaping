@@ -20,6 +20,8 @@ Screenshot of the Customer Login
 
 Screenshots of the Back-End:
 
+![Customer Portal](customerportal.png)
+
 Below is a CORS error we received
 ![CORS ERROR](image.png)
 
