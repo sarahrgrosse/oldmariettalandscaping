@@ -10,6 +10,12 @@ Nice to Have's:
 - Invoice Generator for Customers in the Customer Portal
 - Appointment Setter other than AppointLet
 
+
+Screenshot of the Customer Login
+(Use /login to access this portal)
+
+![Customer Login](customerlogin.png)
+
 Screenshots of the Back-End:
 
 Below is a CORS error we received
