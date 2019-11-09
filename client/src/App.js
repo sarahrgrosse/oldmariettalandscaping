@@ -19,6 +19,8 @@ import PrivateRoute from "../src/components/private-route/PrivateRoute";
 import Dashboard from "../src/components/dashboard/Dashboard";
 import Services from "../src/components/Services";
 import Gallery from "../src/components/Gallery";
+import LoginLanding from "../src/components/LoginLanding";
+
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -55,6 +57,9 @@ class App extends Component {
               <div>
                 <About />
               </div>
+              {/* <div>
+                <Paypal />
+              </div> */}
               <div>
                 <Services />
               </div>
