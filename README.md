@@ -4,7 +4,7 @@ Old Marietta Landscaping is a landscaping company in Marietta, Georgia and is ow
 
 This MERN webpage utilizes HTML, CSS, JavaScript, React.js, Express, and MongoDB.
 
-New Technology's Used: PayPal, AppointLet
+New Technology's Used: PayPal, AppointLet, Visa, MasterCard, American Express, Discover, and Venmo
 
 Nice to Have's: 
 - Invoice Generator for Customers in the Customer Portal
