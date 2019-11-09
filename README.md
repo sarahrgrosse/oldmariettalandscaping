@@ -11,3 +11,9 @@ Nice to Have's:
 - Appointment Setter other than AppointLet
 
 Screenshots of the Back-End:
+
+Below is a CORS error we received
+![CORS ERROR](image.png)
+
+
+
